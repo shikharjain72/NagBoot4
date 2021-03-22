@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <style>
+              #res_grid{
+             width:75vw;
+             margin: 50px auto;
+             display: grid;
+             grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+             gap: 20px;
+             grid-auto-rows: minmax(200px,1fr);
+             grid-auto-columns: minmax(280px,1fr);
+         }
+         #res_grid div{
+             position: relative;
+         }
+         div img{
+             width: 100%;
+             height: 100%;
+             border-radius: 10%;
+         }
+         div img:hover{
+             opacity: 0.35;
+             cursor: pointer;
+             /* To Remove Color in background */
+             filter: grayscale();
+         }
+        
+         #res_grid div{
+             position: relative;
+         }
+        div i{
+             position: absolute;
+             top: 45%;
+             left: 45%;
+             transition: 0.4s;
+         }   
+        img:hover i{
+            transform: scale(2);
+        }      
+        </style>
+    </head>
+    <body>
+        <div id="res_grid">
+            <div>
+                <img src="https://images.unsplash.com/photo-1532892939738-86e29515dc9e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bm8lMjBzcGxhc2h8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                    <i class="fas fa-camera"></i>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1528965051322-6d335c69eb86?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <i class="fas fa-camera"></i>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1508252568242-e0f383f753d6?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <i class="fas fa-camera"></i>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1486890598084-3673ba1808c1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <i class="fas fa-camera"></i>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1502161629422-1a95c089e430?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <i class="fas fa-camera"></i>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1490052961415-96ffc1244aa0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjh8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <i class="fas fa-camera"></i>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1492683962492-deef0ec456c0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <i class="fas fa-camera"></i>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1488497945456-9dd105ac5d29?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mzh8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60">
+                <i class="fas fa-camera"></i>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+        body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        #dimensions{
+                height:100px;
+                width:100px;
+                border-top:10px solid red;
+                border-right:10px solid orange;
+                border-bottom: 10px solid blue;
+                border-left: 10px solid purple;
+                border-radius: 50%;
+                animation-name: rotate;
+                animation-duration: 400ms;
+                animation-iteration-count: infinite;
+        }
+        @keyframes rotate{
+            0%{
+                transform: rotateZ(360deg) ;
+            }
+
+        }
+        </style>
+
+
+    </head>
+    <body>
+        <div id="dimensions" >
+
+        </div>
+    </body>
+</html>

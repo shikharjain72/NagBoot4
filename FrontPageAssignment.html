@@ -1,0 +1,165 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <style>
+
+
+          #ani{
+            height: 75%;
+            animation-name: image_back;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+            /* Go through timing functions once  */
+            /* animation-timing-function: cubic-bezier(.29, 1.01, 1, -0.68); */
+            animation-timing-function: linear;;
+          }
+          @keyframes image_back{
+            
+            0%{
+              background-size: 100%;
+              background-image: url("https://images.unsplash.com/photo-1532892939738-86e29515dc9e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bm8lMjBzcGxhc2h8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+            }
+            25%{
+              background-size: 100%;
+              background-image: url("https://images.unsplash.com/photo-1528965051322-6d335c69eb86?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+
+            }
+            50%{
+              background-size: 100%;
+              background-image: url("https://images.unsplash.com/photo-1486890598084-3673ba1808c1?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTh8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+
+
+            }
+            75%{
+              background-size: 100%;
+              background-image: url("https://images.unsplash.com/photo-1502161629422-1a95c089e430?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+
+
+            }
+            100%{
+              background-size: 100%;
+              background-image: url("https://images.unsplash.com/photo-1492683962492-deef0ec456c0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mjl8fG5vJTIwc3BsYXNofGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+            }
+          }
+          div img{
+            height: 150px;
+            width: 150px;
+          }
+
+          #res_grid{
+            width: 100vw;
+            padding: 5%;
+            background-color:black;
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+            grid-auto-columns: minmax(300px,auto);
+            grid-auto-rows: minmax(250px,auto);
+            gap: 5px;
+          }
+          .info{
+            color: white;
+          }
+
+        </style>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-dark d-flex align-items-center" style="background-color:#12232E;">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+          <div class="btn text-nowrap text-white">
+            Sign Up
+        </div>
+    </nav> 
+
+    <div class="container-fluid " id="ani" >
+    </div>
+
+    <div id="res_grid">
+      <div>
+        <img src="https://rukminim1.flixcart.com/image/150/150/kl175ow0/hand-juicer/e/z/z/plastic-hand-juicer-fruit-and-vegetable-pinkpack-of-1-foxter-original-imagy8zdtc5ywx4t.jpeg?q=70">
+        <div class="info">
+        Hand Juicers
+        </div>
+        <div class="info" >
+          Min 60% Off
+        </div>
+        <div class="info">
+          Shop Now!
+        </div>
+      </div>
+
+      <div>
+        <img src="https://rukminim1.flixcart.com/image/150/150/bath-towel/p/y/u/jf-123-apr-brand-unisex-towel-original-imaee4hvzgsu28pt.jpeg?q=70">
+        <div class="info">
+          Bath Towels
+        </div>
+        <div class="info">
+          Min 60% Off
+        </div>
+        <div class="info">
+          Discover Now!
+        </div>
+      </div>
+
+      <div>
+        <img src="https://rukminim1.flixcart.com/image/150/150/k7dnonk0/ice-cube-tray/g/t/f/ice-cream-mould-and-kulfi-maker-multicolor-plastic-ice-cube-tray-original-imafpm75gazt8ryg.jpeg?q=70">
+        <div class="info">
+          Ice Cube Trays
+        </div>
+        <div class="info">
+          Min 60% Off
+        </div>
+        <div class="info">
+          Hurry,Don't Miss Out!
+        </div>
+      </div>
+
+      <div>
+        <img src="https://rukminim1.flixcart.com/image/150/150/jy0frm80/deodorant/g/f/p/400-hamilton-deodorant-body-spray-denver-men-original-imafgb9fsafampwz.jpeg?q=70">
+        <div class="info">
+          Deodorants
+        </div>
+        <div class="info">
+          Min 30% Off
+        </div>
+        <div class="info">
+          Shop Now!
+        </div>
+      </div>
+
+      <div>
+        <img src="https://rukminim1.flixcart.com/image/150/150/kgb5rbk0/aerated-drink/x/c/c/7920-non-alcoholic-lager-beer-zero-dot-zero-can-24-cans-24-x-original-imafwkqe7u9twvzu.jpeg?q=70">
+        <div class="info">
+          Soft Drink Products 
+        </div>
+        <div class="info">
+          Min 30% Off
+        </div>
+        <div class="info" >
+          Grab Now!
+        </div>
+      </div>
+
+    </div>
+
+
+
+    </body>
+</html>
